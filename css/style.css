@@ -190,4 +190,19 @@ footer {
     margin: 0px;
     padding: 3px;
   }
+  .portfolio-item {
+    background: linear-gradient(rgb(255, 255, 255),rgb(226, 220, 186));
+  }
+  .alternate-portfolio-item {
+    background: linear-gradient(rgb(255, 255, 255),rgb(186, 226, 220));
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .profile-photo {
+    width: 15%;
+  }
+  .tech-used-wrapper {
+    width: 24%;
+  }
 }
